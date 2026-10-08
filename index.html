@@ -73,7 +73,7 @@ nav.hide{transform:translateY(-110%)}
 .hero-media video.on{opacity:.85}
 .hero-shade{position:absolute;inset:0;background:
   linear-gradient(to top,rgba(7,5,6,.96) 0%,rgba(7,5,6,.35) 40%,rgba(7,5,6,.15) 65%,rgba(7,5,6,.45) 100%)}
-#stars{position:absolute;inset:0;pointer-events:none}
+#stars{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none}
 .hero-inner{position:relative;z-index:3;width:100%;padding:0 clamp(1.2rem,5vw,4.5rem) clamp(4.5rem,10vh,7rem)}
 .overline{display:flex;align-items:center;gap:.9rem;font-size:.68rem;letter-spacing:.42em;text-transform:uppercase;color:var(--gold);margin-bottom:1.4rem}
 .overline::before{content:"";width:44px;height:1px;background:var(--gold);display:inline-block}
@@ -231,7 +231,7 @@ footer .fbrand{font-family:var(--serif);letter-spacing:.28em;font-size:.95rem;co
 <section id="hero">
   <div class="hero-media">
     <video id="heroVideo" autoplay muted loop playsinline preload="auto" aria-hidden="true">
-      <source src="https://muse.ai/files/1434880809701725/1022381060814334/7oapxxl7gl2geq6cr03vldwe/media-generation-meraki-salon-hero-0-63c26fe4-4a1a-4fdf-833f-106087efe0e8.mp4" type="video/mp4">
+      <source src="media/hero-web.mp4" type="video/mp4">
     </video>
     <div class="hero-shade"></div>
   </div>
@@ -292,7 +292,7 @@ footer .fbrand{font-family:var(--serif);letter-spacing:.28em;font-size:.95rem;co
           <p class="svc-desc">Precision cuts, dimensional colour and silk-press finishes — hair engineered to move like water and catch light like jewellery.</p>
           <p class="svc-price">From <b>Rs 3,500</b></p>
         </div>
-        <div class="svc-media"><img src="https://muse.ai/files/1434880809701725/1115660374264888/hzv1333pzysvb85di6s8plzu/media-generation-meraki-service-hair-0-aa3c2f89-a310-4e93-afda-e70a28393fe0.webp" alt="Hair styling at Meraki salon" loading="lazy"></div>
+        <div class="svc-media"><img src="media/hair.webp" alt="Hair styling at Meraki salon" loading="lazy"></div>
       </div>
     </div>
     <div class="svc-scene" data-scene>
@@ -303,7 +303,7 @@ footer .fbrand{font-family:var(--serif);letter-spacing:.28em;font-size:.95rem;co
           <p class="svc-desc">Our legendary five-stage facial — cleanse, exfoliate, mask, massage, glow. Skin doesn't just look rested; it behaves rested.</p>
           <p class="svc-price">From <b>Rs 4,000</b></p>
         </div>
-        <div class="svc-media"><video muted loop playsinline preload="metadata"><source src="https://muse.ai/files/1434880809701725/2618245148582795/61wd57q17y5dllkgfwdyd8l9/media-generation-meraki-facial-treatment-0-9b58af07-c3ec-4b00-a63b-c5a84bee4819.mp4" type="video/mp4"></video></div>
+        <div class="svc-media"><video muted loop playsinline preload="metadata"><source src="media/facial-web.mp4" type="video/mp4"></video></div>
       </div>
     </div>
     <div class="svc-scene" data-scene>
@@ -314,7 +314,7 @@ footer .fbrand{font-family:var(--serif);letter-spacing:.28em;font-size:.95rem;co
           <p class="svc-desc">Full bridal transformations — makeup, hair, draping — choreographed like a film production, timed to your baraat, not our clock.</p>
           <p class="svc-price">From <b>Rs 25,000</b></p>
         </div>
-        <div class="svc-media"><video muted loop playsinline preload="metadata"><source src="https://muse.ai/files/1434880809701725/1148580857598816/552id7zcvh0mbhcufb8a0pvn/media-generation-meraki-bridal-makeup-0-05fad672-7723-4455-841b-bd36c4904f66.mp4" type="video/mp4"></video></div>
+        <div class="svc-media"><video muted loop playsinline preload="metadata"><source src="media/bridal-web.mp4" type="video/mp4"></video></div>
       </div>
     </div>
     <div class="svc-scene" data-scene>
@@ -325,7 +325,7 @@ footer .fbrand{font-family:var(--serif);letter-spacing:.28em;font-size:.95rem;co
           <p class="svc-desc">Sculpted extensions, hand-painted art and glass-gel finishes. Ten tiny canvases, one uncompromising artist.</p>
           <p class="svc-price">From <b>Rs 2,000</b></p>
         </div>
-        <div class="svc-media"><img src="https://muse.ai/files/1434880809701725/2192004778365913/4rs80o93pj2e3kqqe2ybzjp7/media-generation-meraki-service-nails-0-1f403e8c-73b4-4753-b370-460cfeebc707.webp" alt="Luxury manicure at Meraki" loading="lazy"></div>
+        <div class="svc-media"><img src="media/nails.webp" alt="Luxury manicure at Meraki" loading="lazy"></div>
       </div>
     </div>
     <div class="svc-scene" data-scene>
@@ -336,7 +336,7 @@ footer .fbrand{font-family:var(--serif);letter-spacing:.28em;font-size:.95rem;co
           <p class="svc-desc">Aromatherapy massages and body polishes in candlelit calm. Leave lighter than you arrived — guaranteed.</p>
           <p class="svc-price">From <b>Rs 5,000</b></p>
         </div>
-        <div class="svc-media"><img src="https://muse.ai/files/1434880809701725/30012899518309883/ayh9peyzmc6a3nmytytvezwl/media-generation-meraki-service-spa-0-b45f2579-2a9c-428e-a00e-89e7b799335e.webp" alt="Spa ritual room at Meraki" loading="lazy"></div>
+        <div class="svc-media"><img src="media/spa.webp" alt="Spa ritual room at Meraki" loading="lazy"></div>
       </div>
     </div>
     <div class="svc-progress"><span class="svc-count"><span id="svcNum">01</span> / 05</span><div class="svc-bar"><i id="svcFill"></i></div></div>
@@ -349,7 +349,7 @@ footer .fbrand{font-family:var(--serif);letter-spacing:.28em;font-size:.95rem;co
   <div class="film-pin" id="facialPin">
     <div class="film-media">
       <video id="facialVideo" muted playsinline preload="auto">
-        <source src="https://muse.ai/files/1434880809701725/2618245148582795/61wd57q17y5dllkgfwdyd8l9/media-generation-meraki-facial-treatment-0-9b58af07-c3ec-4b00-a63b-c5a84bee4819.mp4" type="video/mp4">
+        <source src="media/facial-web.mp4" type="video/mp4">
       </video>
       <div class="film-shade"></div>
     </div>
@@ -375,7 +375,7 @@ footer .fbrand{font-family:var(--serif);letter-spacing:.28em;font-size:.95rem;co
   <div class="film-pin" id="bridalPin">
     <div class="film-media">
       <video id="bridalVideo" muted playsinline preload="auto">
-        <source src="https://muse.ai/files/1434880809701725/1148580857598816/552id7zcvh0mbhcufb8a0pvn/media-generation-meraki-bridal-makeup-0-05fad672-7723-4455-841b-bd36c4904f66.mp4" type="video/mp4">
+        <source src="media/bridal-web.mp4" type="video/mp4">
       </video>
       <div class="film-shade"></div>
     </div>
@@ -537,9 +537,9 @@ function initParticles(){
     const pts=new THREE.Points(geo,mat);scene.add(pts);
     let mx=0,my=0,visible=true,raf=null;
     addEventListener("mousemove",e=>{mx=(e.clientX/innerWidth-0.5);my=(e.clientY/innerHeight-0.5);});
-    function size(){const w=canvas.clientWidth||innerWidth,h=canvas.clientHeight||innerHeight;
+    function size(){const r=canvas.getBoundingClientRect();const w=Math.round(r.width)||innerWidth,h=Math.round(r.height)||innerHeight;
       renderer.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix();}
-    size();addEventListener("resize",size);
+    size();addEventListener("resize",size);addEventListener("load",size);setTimeout(size,600);setTimeout(size,2000);
     new IntersectionObserver(en=>{visible=en[0].isIntersecting;if(visible&&!raf)loop();},{threshold:0}).observe(canvas);
     document.addEventListener("visibilitychange",()=>{if(document.hidden){cancelAnimationFrame(raf);raf=null;}else if(visible&&!raf)loop();});
     const clock=new THREE.Clock();
